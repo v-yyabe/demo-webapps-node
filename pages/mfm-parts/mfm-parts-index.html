@@ -1,0 +1,95 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" >
+    <link rel="stylesheet" href="../css/bootstrap-grid.css" >
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' data:; script-src 'self' 'unsafe-eval' 'unsafe-inline' data:;" />
+    <title>Please select a Parts.</title>
+</head>
+<body>
+
+  <h1 class="titlebar">
+    <div class="container-fluid">
+      <div id="PARTS-TITLE">
+        Please select a Parts.
+      </div>
+    </div>
+  </h1>
+  <div class="container-fluid">
+    <div class="row row-cols-3 justify-content-evenly align-items-center">
+      <div class="col align-self-center">
+        <button type="button" id="parts1" class="btn btn-outline-dark">
+          <div id="img-thumbnail-div" class="row">
+            <div class="col-8" id="img-thumbnail-size1">Size:</div>
+            <div class="col-4" id="img-thumbnail-plateThickness1"></div>
+            <div class="col-12"><img src="../images/mfm/HAIDEN-1.png" class="img-thumbnail" alt="SAMPLE1"></div>
+            <div class="col-12" id="img-thumbnail-features1">Features:</div>
+          </div>  
+        </button>
+      </div>
+      <div class="col align-self-center">
+        <button type="button" id="parts2" class="btn btn-outline-dark">
+          <div id="img-thumbnail-div" class="row row-cols-1">
+            <div class="col-8" id="img-thumbnail-size2">Size:</div>
+            <div class="col-4" id="img-thumbnail-plateThickness2"></div>
+            <div class="col-12"><img src="../images/mfm/KENCHIKU-1.png" class="img-thumbnail" alt="SAMPLE2"></div>
+            <div class="col-12" id="img-thumbnail-features2">Features:</div>
+          </div>  
+        </button>
+      </div>
+      <div class="col align-self-center">
+        <button type="button" id="parts3" class="btn btn-outline-dark">
+          <div id="img-thumbnail-div" class="row">
+            <div class="col-8" id="img-thumbnail-size3">Size:</div>
+            <div class="col-4" id="img-thumbnail-plateThickness3"></div>
+            <div class="col-12"><img src="../images/mfm/KENCHIKU-3.png" class="img-thumbnail" alt="SAMPLE3"></div>
+            <div class="col-12" id="img-thumbnail-features3">Features:</div>
+          </div>  
+        </button>
+      </div>
+      <div class="col-6 align-self-center">
+        <button type="button" id="parts4" class="btn btn-outline-dark">
+          <div id="img-thumbnail-div" class="row">
+            <div class="col-8" id="img-thumbnail-size4">Size:</div>
+            <div class="col-4" id="img-thumbnail-plateThickness4"></div>
+            <div class="col-12"><img src="../images/mfm/OAFA-1.png" class="img-thumbnail" alt="SAMPLE4"></div>
+            <div class="col-12" id="img-thumbnail-features4">Features:</div>
+          </div>  
+        </button>
+      </div>
+      <div class="col-6 align-self-center">
+        <button type="button" id="parts5" class="btn btn-outline-dark">
+          <div id="img-thumbnail-div" class="row">
+            <div class="col-8" id="img-thumbnail-size5">Size:</div>
+            <div class="col-4" id="img-thumbnail-plateThickness5"></div>
+            <div class="col-12"><img src="../images/mfm/OAFA-3.png" class="img-thumbnail" alt="SAMPLE5"></div>
+            <div class="col-12" id="img-thumbnail-features5">Features:</div>
+          </div>  
+        </button>
+      </div>
+    </div>
+  </div>
+  <hr/>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="row">
+          <div class="col">
+            We are using Node.js <span id="node-version"></span>,
+            Chromium <span id="chrome-version"></span>,
+            and Electron <span id="electron-version"></span>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+  <!-- このプロセスで他ファイルを require して実行することはできない。 -->
+  <script src="./mfm-parts-renderer.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+doctype html
+html(lang='ja')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width,user-scalable=yes,initial-scale=1.0')
+    meta(http-equiv='Content-Security-Policy', content="connect-src http://www.amada.co.jp; default-src 'self' 'unsafe-inline' data:; script-src 'self' 'unsafe-eval' 'unsafe-inline' data:; ")
+    meta(name="color-scheme" content="dark light")
+    title= title
+    link(rel='stylesheet', href='./css/bootstrap.min.css')
+    link(rel='stylesheet', href='./css/styles.css')
+    //- link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    include header
+    block content
+    include footer

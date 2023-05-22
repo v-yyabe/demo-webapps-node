@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  <div class="container-lg">
+    <div class="d-grid gap-2 row">
+      <div class="col-12 col">
+        <h1 class=" d-flex justify-content-center">
+          <div>Machining speed comparison tool</div>
+        </h1>
+      </div>
+    </div>
+    <div class="d-grid gap-2 d-flex justify-content-center row">
+      <a role="button" class="btn btn-lg btn-dark btn-block Laser" href="/top/TOP" style="color: red;">
+        <div>laser machine</div>
+      </a>
+      <a role="button" class="btn btn-lg btn-dark btn-block MFM" href="/top/TOP" style="color: red;">
+        <div>Laser/Punch combination machine</div>
+      </a>
+    </div>
+  </div>

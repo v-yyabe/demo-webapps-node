@@ -1,0 +1,193 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background: linear-gradient(-135deg, #940909, #363333) fixed;
+    color: white;
+    overflow: auto;
+  }
+  .input-group-text {
+    background: #666;
+    color: white;
+  }
+  .model1 {
+    color: lightcoral;
+  }
+  .model2 {
+    color: lightblue;
+  }
+  .ct-label {
+    fill: white;
+    color: white;
+  }
+  .btn {
+    color: white;
+  }
+  table {
+    border-collapse: collapse;
+    color: white;
+  }
+  th {
+    text-align: center;
+  }
+  th,td {
+    color: white;
+  }
+  caption {
+    color: #e2caca;
+  }
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background: linear-gradient(-135deg, #e97777, #c7bdbd) fixed;
+    color: black;
+    overflow: auto;
+  }
+  .input-group-text {
+    background: #ccc;
+    color: black;
+  }
+  .model1 {
+    color: lightcoral;
+  }
+  .model2 {
+    color: blue;
+  }
+  .ct-label {
+    fill: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4);
+  }
+  .btn {
+    color: black;
+  }
+  table {
+    border-collapse: collapse;
+    color: black;
+  }
+  th {
+    text-align: center;
+  }
+  th,td {
+    color: black;
+  }
+  caption {
+    color: #352525;
+  }
+}
+
+body {
+  font-family: "メイリオ", "Arial", system-ui, sans-serif, serif, "HGP創英角ｺﾞｼｯｸUB";
+}
+
+.ct-label.btn.btn-primary{
+  fill: white;
+  font-size: 1.3rem;
+  stroke: orange;
+  stroke-width: 0.5;
+  text-shadow: 0 1px 1px darkorange;
+}
+
+.ct-label.btn.btn-primary:hover {
+  fill: white;
+  font-size: 1.3rem;
+  stroke: lightsalmon;
+  stroke-width: 0.5;
+  text-shadow: 0 1px 1px darkorange;
+}
+
+/*
+body {
+  -webkit-app-region: drag;
+}
+*/
+button {
+  -webkit-app-region: no-drag;
+}
+input {
+  user-select: auto;
+  -webkit-app-region: no-drag;
+}
+
+a {
+  user-select: auto;
+  -webkit-app-region: no-drag;
+}
+
+.titlebar {
+  user-select: none;
+  -webkit-app-region: drag;
+}
+
+#settings-btn {
+  padding: 1px 5px;
+}
+
+canvas {
+  border: 2px solid;
+}
+
+.video_wrapper {
+  position: relative;
+  overflow: hidden;
+  --bs-aspect-ratio: 45%;
+}
+
+.video_wrapper > video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.ct-legend {
+  display: flex;
+  flex-wrap: wrap;
+  visibility: hidden;
+}
+
+.ct-legend .ct-label {
+  float: left;
+}
+
+.ct-legend .ct-series-a {
+  background-color: lightcoral;
+  border: 1px solid lightcoral;
+}
+
+.ct-legend .ct-series-b {
+  background-color: rgb(5, 73, 128);
+  border: 1px solid rgb(5, 73, 128);
+}
+
+.ct-legend .ct-series-c {
+  background-color: green;
+  border: 1px solid green;
+}
+
+.ct-series-a .ct-line,
+.ct-series-a .ct-point {
+  stroke: lightcoral;
+}
+
+.ct-series-b .ct-line,
+.ct-series-b .ct-point {
+  stroke: rgb(5, 73, 128);
+}
+
+.ct-series-c .ct-line,
+.ct-series-c .ct-point {
+  stroke: green;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.form-select:disabled {
+  background-color: red;
+}
+
+.table-caption {
+  font-weight: bold;
+}
