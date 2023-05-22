@@ -1,0 +1,1 @@
+{"version":3,"file":"settings.js","sourceRoot":"","sources":["../../../../server/locales/en/settings.ts"],"names":[],"mappings":";;;AAAa,QAAA,IAAI,GACjB;IACE,OAAO,EAAE,kBAAkB;IAC3B,WAAW,EAAE,UAAU;IACvB,WAAW,EAAE,SAAS;IACtB,gBAAgB,EAAE,UAAU;IAC5B,gBAAgB,EAAE,WAAW;IAC7B,cAAc,EAAE,UAAU;IAC1B,eAAe,EAAE;QACf,IAAI,EAAE,UAAU;QAChB,IAAI,EAAE,SAAS;KAChB;CACF,CAAA"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"mfmmodel.js","sourceRoot":"","sources":["../../../../server/locales/en/mfmmodel.ts"],"names":[],"mappings":";;;AAAa,QAAA,IAAI,GACjB;IACE,cAAc,EAAE;QACd,SAAS,EAAE,cAAc;QACzB,OAAO,EAAE,YAAY;QACrB,MAAM,EAAE,WAAW;KACpB;IACD,0BAA0B,EAAE,+BAA+B;IAC3D,0BAA0B,EAAE,+BAA+B;CAC5D,CAAA"}
